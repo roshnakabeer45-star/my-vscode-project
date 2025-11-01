@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body><style>
+
+    .team-photo {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #0d6efd;
+      margin: 20px auto;
+      display: block;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="container ">
+    <div class="text-center ">
+      <h1 class="fw-bold text-primary">Visionary Labs Team</h1>
+      <h3 class="text-secondary">Innovating Together for a Smarter Future</h3>
+    </div>
+    <blockquote class="blockquote text-center">
+      <p >"Coming together is a beginning, staying together is progress, and working together is success."</p>
+    </blockquote>
+    <div class="text-center mb-5">
+      <h3 class="text-dark mb-3">Our Core Values</h3>
+      <ul class="list-unstyled value-list">
+        <li> Collaboration drives innovation</li>
+        <li> Creativity fuels growth</li>
+        <li> Integrity builds trust</li>
+      </ul>
+    </div>
+    <div class="text-center">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl-TqYLicgbSrkMgbwM3Ow7O2TTGyQkCoqUQ&s" alt="Team Photo" class="team-photo shadow">
+    </div>
+
+      <table class="table table-bordered table-hover text-center align-middle shadow-sm">
+        <thead class="table-primary">
+          <tr>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="employeeTable">
+          <tr>
+            <td>Alice Johnson</td>
+            <td>Project Manager</td>
+            <td class="text-success fw-bold">Active</td>
+          </tr>
+          <tr>
+            <td>Brian Smith</td>
+            <td>Software Engineer</td>
+            <td class="text-warning fw-bold">On Leave</td>
+          </tr>
+          <tr>
+            <td>Clara Lee</td>
+            <td>UI/UX Designer</td>
+            <td class="text-danger fw-bold">Resigned</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="statusAlert" class="alert alert-warning " role="alert">
+      ⚠️ Warning: One or more employees are not currently active.
+    </div>
+</body>
+</html>
+</body>
+</html>
