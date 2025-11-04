@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+     <h1 class="card-title mb-3 text-center">Bakery Feedback</h1>
+<div class="form-group">
+      <label for="Name">Name:</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter Name" name="name">
+    </div>
+    <div class="form-group">
+      <label for="Email">Email:</label>
+      <input type="email" class="form-control" id="Email" placeholder="Enter Email" name="email">
+    </div>
+    <div class="form-group">
+  <label for="Feedback">Feedback:</label>
+  <textarea class="form-control" rows="3" id="Feedback"></textarea>
+</div>
+<h3 class="card-title mb=3">Preffered  contact method</h3>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input "name="optradio">Phone
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input"name="optradio" >Email
+  </label>
+</div>
+<h3 class="card-title mb-3"> Satisfaction Level</h3>
+<div class="form-group">
+      <input type="range" class="form-control-range"  value="1-10">
+    </div>
+    <div class ="dropdown mb=3">
+<button type="button " class="btn btn-info dropdown-toggle" data-toggle="dropdown">ORDERS</button>
+<div class="dropdown-menu ">
+<a class="dropdown-item" href="#">Cake🎂</a>
+<a class="dropdown-item" href="#">Cookies🍪</a>
+<a class="dropdown-item" href="#">Pastries🍰</a>
+</div>
+</div>
+<div>
+   <button type="submit" class="btn btn-primary mt-3">Submit</button>
+</div>
+</div>
+</body> 
+    </html>
